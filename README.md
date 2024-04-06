@@ -19,8 +19,15 @@ This is a React.js frontend application for managing product inventory. It inter
 
 1. Clone this repository to your local machine.
 2. Install dependencies using `npm install`.
-3. Start the development server using `npm start`.
-4. Access the application in your web browser at `http://localhost:3000`.
+3. Create a `.env` file in the root directory of the project.
+4. Add the following line to the `.env` file and replace `<elasticbeanstalk-domain-url>` with your Elastic Beanstalk domain URL:
+
+    ```plaintext
+    REACT_APP_API_BASE_URL=http://<elasticbeanstalk-domain-url>
+    ```
+
+5. Start the development server using `npm start`.
+6. Access the application in your web browser at `http://localhost:3000`.
 
 ## Deployment
 
